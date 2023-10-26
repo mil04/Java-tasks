@@ -1,0 +1,17 @@
+Etap 1:
+Etap 1 działa prawidłowo
+
+Etap 2:
+InvalidFileException
+java.lang.IllegalArgumentException
+java.lang.IllegalArgumentException
+1.0
+
+Etap 3:
+Jan Kowalski (0 years old). Job: Software Developer, 1.0E9
+
+Etap 4:
+[1.0, 23000.0, 9.83746E-10]
+
+Etap 5:
+Sprawdz folder 'etap5'

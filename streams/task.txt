@@ -1,0 +1,57 @@
+Etap 1 (4pkt)
+
+Utwórz klasę o nazwie InvalidFileException, która będzie mogła być rzucona jak wyjątek.
+Klasa powinna udostępniać konstruktor bezparametrowy oraz konstruktor przyjmujący wiadomość
+typu string.
+
+Etap 2 (6 pkt)
+
+Utwórz klasę Provider.
+
+Wewnątrz klasy utwórz publiczną statyczną metodę GetMeanOfNumbers, która przyjmuje ścieżkę
+do pliku tekstowego i zwraca średnią wszystkich liczb w tym pliku.
+
+W przypadku niepowodzenia należy rzucić wyjątek utowrzony w pierwszym etapie. W przypadku gdy w pliku nie ma
+żadnych liczb, należy rzucić wyjątek IllegalArgumentException.
+
+Etap 3 (6 pkt)
+
+W klasie Provider utwórz dwie statyczne metody:
+
+1. SerializePerson, która przyjmuje obiekt klasy Person oraz ścieżkę do pliku, do którego należy zserializować
+dany obiekt w formacie XML. (3pkt)
+
+2. DeserializePerson, która przyjmuje ścieżkę do pliku w formacie XML i zwraca obiekt klasy Person zdeserializowany
+z tego pliku. (3pkt)
+
+Podczas serializacji należy pominąc pole oznaczające wiek osoby.
+Można edytować klasy Person oraz Job. W przypadku błędu należy rzucić wyjątek z pierwszego etapu.
+
+Etap 4 (6 pkt)
+
+W klasie Provider utworzyć statyczną metodę GetAllNumbers, która przyjmuje napis i zwraca listę liczb zmiennoprzecinkowych,
+które znajdują się w tekście w notacji naukowej. Rozwiązanie powinno zostać zaimplementowane z użyciem wyrażeń regularnych.
+
+Warto zerknąć tutaj: https://learntutorials.net/pl/java/topic/135/wyrazenia-regularne#:~:text=Wyra%C5%BCenie%20regularne%20to%20specjalna%20sekwencja%20znak%C3%B3w%2C%20kt%C3%B3ra%20pomaga,obs%C5%82uguje%20obs%C5%82ug%C4%99%20wyra%C5%BCe%C5%84%20regularnych%20za%20po%C5%9Brednictwem%20pakietu%20java.util.regex.
+Zwłacza na symbole: +, ?, *
+
+Przykłady poprawnych liczb w notacji naukowej:
+1 - 1E0
+10 - 1E1
+100 - 1e2
+1000 - 1e3
+
+70 - 7e+1
+7 - 7E0
+0.7 - 7E-1
+0.07 - 7E-2
+
+0.00345 - 3.45e-3
+
+Etap 5 (3 pkt)
+
+W klasie Provider napisać statyczną metodę CopySpecialFiles, która przyjmuje ścieżkę do katalogu. Funckja rekurencyjnie
+przegląda wszystkie pliki kopiuje te z nich, które w nazwie zawierają literę 'X'. Nowoutworzony plik powienien mieć tę
+samą nazwę z przyrostkiem '.copy'.
+
+Można zdefiniować dodatkowe pola i metody prywatne.
