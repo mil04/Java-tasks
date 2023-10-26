@@ -1,0 +1,24 @@
+Etap 1
+[Bajka(HUSKY, 5.5kg), Saba(HUSKY, 47.0kg), Azor(HUSKY, 50.5kg), Azor(DACHSHUND, 53.5kg), Saba(MONGREL, 53.5kg), Burek(DACHSHUND, 150.5kg)]
+[Azor(DACHSHUND, 53.5kg), Burek(DACHSHUND, 150.5kg), Bajka(HUSKY, 5.5kg), Saba(HUSKY, 47.0kg), Azor(HUSKY, 50.5kg), Saba(MONGREL, 53.5kg)]
+[Azor(DACHSHUND, 53.5kg), Azor(HUSKY, 50.5kg), Burek(DACHSHUND, 150.5kg), Bajka(HUSKY, 5.5kg), Saba(MONGREL, 53.5kg), Saba(HUSKY, 47.0kg)]
+
+Etap 2
+Azor(DACHSHUND, 53.5kg)
+Azor(HUSKY, 50.5kg)
+Burek(DACHSHUND, 150.5kg)
+Bajka(HUSKY, 5.5kg)
+Saba(MONGREL, 53.5kg)
+Saba(HUSKY, 47.0kg)
+
+Etap 3
+[Saba(HUSKY, 48.0kg), Saba(MONGREL, 54.5kg), Bajka(HUSKY, 6.5kg), Burek(DACHSHUND, 151.5kg), Azor(HUSKY, 51.5kg), Azor(DACHSHUND, 54.5kg)]
+
+Etap 4
+{
+	MONGREL=[Saba(MONGREL, 54.5kg)],
+	DACHSHUND=[Burek(DACHSHUND, 151.5kg), Azor(DACHSHUND, 54.5kg)],
+	HUSKY=[Saba(HUSKY, 48.0kg), Bajka(HUSKY, 6.5kg), Azor(HUSKY, 51.5kg)]
+}
+
+Process finished with exit code 0

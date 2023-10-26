@@ -1,0 +1,36 @@
+Zadanie 1 - 5 pkt
+
+Przyjrzyj się implementacji klasy Dog. Następnie uzupełnij funkcję main o odpowiednie sortowania w taki sposób, aby:
+
+1) pierwsze sortowanie (1pkt) sortowało po masie psa
+2) drugie sortowanie (2pkt) sortowało w pierwszej kolejności po rasie alfabetycznie, następnie jeżeli rasy są takie same,
+to w drugiej kolejności po masie.
+3) trzecie sortowanie (3pkt) sortowało w taki sposób, że na początku są psy o imieniu Azor, a na końcu psy o imieniu Saba;
+ponadto drugorzędnym kryterium sortowania jest masa psa, ale sortowanie po masie powinno być malejące.
+
+Zadanie 2 - 7 pkt
+
+Zaimplementuj klasę BinaryTree (ogólne drzewo binerna, bez porządku elementów), która implementuje część interfejsu
+Collection<Dog>.
+
+Metody, które należy zaimplementować to
+
+boolean add(Dog dog)
+Iterator<Dog> iterator()
+
+Zadanie 3 - 3 pkt
+
+Utworzyć klasę Provider, która ma generyczną publiczną statyczną metodę (typ T) getAddToListHandler. Należy zapewnić, że obiekty typu T da się
+porównać. Metoda przyjmuje:
+ - iterator listy obiektów typu T
+ - kolekcję obiektórw typu T
+ - funkcję, która przyjmuje obiekt typu T i nic nie zwraca
+
+Metoda zwraca funkcję, która po wywołaniu wykona na każdym elemencie kolekcji przekazaną funkcję, a następnie doda ją
+do listy (poprzez iterator).
+
+Zadanie 4 - 2 pkt
+
+W klasie Provider utworzyć publiczną statyczną metodę getDogsMapped, która przyjmuje kolekcję psów. Zwraca mapę, której kluczami są rasy psów,
+a wartościami są listy zawierające psy tej rasy.
+
