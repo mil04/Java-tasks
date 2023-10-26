@@ -1,0 +1,48 @@
+Etap 1 (5 pkt)
+
+Utwórz swój komponent o nazwie MyComponent. Komponent musi spełniać następujące warunki:
+
+- Należy narysować na nim wypełniony kwadrat o boku 400px (1 pkt)
+- Następnia w kwadrat wpisać niewypełniony trójkąt (1.5 pkt)
+- Następnie w trójkąt należy wpisać wypełnione koło (1.5 pkt)
+- Na koniec pod figurami narysować napis kursywą (1 pkt)
+
+Etap 2 (5 pkt)
+
+Należy utworzyć nowy komponent o nazwie PersonalComponent, który będzie posiadał Panel jako główny element
+o nazwie `panel`.
+
+Należy na nim stworzyć siatkę 4 x 4 przycisków. Należy wybrać 8 kolorów (dowolne) i losowo wybrać dla każdego
+koloru dwa przyciski i nadać im wybrany kolor jako tło.
+
+Etap 3 (5 pkt)
+
+Wszystkie guziki na początku powinny mieć domyślny kolor i dopiero po kliknięciu pokazuje swój kolor. Gdy wszystkie
+guziki zostaną kliknięte, powinno wyskoczyć okno dialogowe z informacją, że użytkownik wygrał (dowolny tekst).
+
+Etap 4 (2 pkt)
+
+Po najechaniu kursorem na przycisk powinine się na nim pojawiać napis `Click me!`.
+
+Etap 5 (3 pkt)
+
+Dodać label (dowolne miejsce), który będzie wyświetlał napis: "Game duration: <czas działania aplikacji>", który będzie
+updatowany co 1s.
+
+Etap 6 (5 pkt)
+
+Należy dodać przyciski `zapisz` i `wczytaj`.
+Przycisk `zapisz` powinien zapisać stan rozgrywki, a `wczytaj` wczytywać go. Sposób implementacji jest dowolny, ale
+następujące scenariusze powinnyc byc mozliwe.
+
+1.
+- Zapis gry
+- Wykonanie ruchu
+- Wczytanie gry - gra wraca do stanu, gdy została zapisana
+
+2.
+- Wykonanie ruchu
+- Zapis gry
+- Zamknięcie aplikacji
+- Uruchomienie aplikacji
+- Wczytanie gry - gra wraca do stanu, gdy została zapisana
